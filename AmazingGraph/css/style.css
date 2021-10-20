@@ -26,6 +26,8 @@ a {
 
 .estrutura {
   display: grid;
+  max-width: 960px;
+  margin: 0 auto;
   grid-template-columns: 2fr 1fr;
   grid-template-areas: 
     "header header"
@@ -40,7 +42,7 @@ a {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 50px 30px;
+  padding: 50px 30px 50px 0px;
   align-items: center;
 }
 
@@ -71,3 +73,25 @@ a {
 }
 
 /* CONTENT */
+
+.content {
+  grid-area: content;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.content-text {
+  padding-left: 30px;
+}
+
+.title {
+  font-size: 2.5em;
+  color: var(--gray);
+  padding-bottom: 20px;
+}
+
+.description {
+  font-size: 1.25em;
+  color: var(--gray);
+  padding-bottom: 40px;
+}
