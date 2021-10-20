@@ -23,3 +23,37 @@ a {
 }
 
 /* HEADER */
+
+.header {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px 0;
+}
+
+.logo {
+  font-size: 2em;
+  font-weight: bold;
+  color: var(--orange);
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu li a {
+  font-size: 1.5em;
+  color: #000;
+  transition: ease-out .3s;
+}
+
+.menu li + li {
+  padding-left: 20px;
+}
+
+.menu li a:hover {
+  opacity: 0.6;
+}
