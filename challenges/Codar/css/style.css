@@ -28,7 +28,7 @@ a {
   flex-wrap: wrap;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 30px 0 50px 0;
+  padding-top: 30px;
   max-width: 1200px;
   align-items: center;
 }
@@ -49,20 +49,69 @@ a {
   color: #000;
 }
 
-.menu li a {
-  color: #000;
-  font-size: 1.25rem;
+.menu li + li {
+  margin-left: 30px;
 }
 
-.menu li a.btn {
+.menu li a {
+  color: #000;
+  font-size: 1.5rem;
+}
+
+.menu li a.btn{
+  color: #fff;
+}
+
+.btn {
   padding: 5px 50px 5px 50px;
   background: var(--red);
   color: #fff;
   border-radius: 7px;
 }
 
-.menu li + li {
-  margin-left: 30px;
+.estrutura {
+  margin: 0 auto;
+  max-width: 1080px;
 }
 
 /* INTRODUCAO */
+
+.introducao {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 60px 0;
+  align-items: center;
+  gap: 100px;
+}
+
+.intro-img{
+  padding: 10px;
+  flex: 1 1 350px;
+}
+
+.intro-text {
+  padding: 10px;
+  flex: 1 1 300px;
+  margin-bottom: 100px;
+}
+
+.intro-text h1 {
+  padding-bottom: 30px;
+}
+
+.intro-text h1 p {
+  color: #000;
+  font-size: 1.25rem;
+}
+
+.intro-text h1 span {
+  color: var(--red);
+  font-size: 3rem;
+}
+
+.intro-text a.btn {
+  padding: 12px 50px 12px 50px;
+}
+
