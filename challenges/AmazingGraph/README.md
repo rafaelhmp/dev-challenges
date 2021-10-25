@@ -10,7 +10,7 @@
 
   
 
-O challenge **Amazing Graph** é um desafio proposto pela **[DevChallenge](https://www.devchallenge.com.br/)**, onde o objetivo principal é a criação de uma **landing page** sobre um site de criação de gráficos. Desenvolvi o site utilizando propriedades do **HTML5** e do **CSS3 (grid layout e flexbox)**, além do uso de *media queries* para tornar o site **responsivo**.
+O challenge **Amazing Graph** é um desafio de **Front End** com dificuldade **iniciante** proposto pela **[DevChallenge](https://www.devchallenge.com.br/)**, onde o objetivo principal é a criação de uma **landing page** sobre um site de criação de gráficos. Desenvolvi o site utilizando propriedades do **HTML5** e do **CSS3 (grid layout e flexbox)**, além do uso de *media queries* para tornar o site **responsivo**.
 
 ---
 
