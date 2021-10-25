@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 :root {
   --orange: #D2872C;
-  --gray: #766F68;
+  --grey: #766F68;
 }
 
 body, h1, p, ul, li, img {
@@ -72,6 +72,21 @@ a {
   opacity: 0.6;
 }
 
+.hamburguer {
+  border-top: 4px solid var(--grey);
+  width: 30px;
+  display: none;
+}
+
+.hamburguer:after, .hamburguer:before {
+  content: '';
+  display: block;
+  width: 30px;
+  height: 4px;
+  background: var(--grey);
+  margin-top: 5px;
+}
+
 /* CONTENT */
 
 .content {
@@ -86,12 +101,12 @@ a {
 
 .title {
   font-size: 2.5em;
-  color: var(--gray);
+  color: var(--grey);
 }
 
 .description {
   font-size: 1.25em;
-  color: var(--gray);
+  color: var(--grey);
   margin-top: 20px;
 }
 
@@ -111,4 +126,46 @@ a {
 .btn:hover {
   transform: scale(1.05);
   box-shadow: 0px 2px 5px rgba(170, 170, 170);;
+}
+
+/* RESPONSIVO TABLET */
+@media (max-width: 990px) { 
+  .header {
+    padding: 50px 30px 10px 30px;
+  }
+  .content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .description {
+    padding-bottom: -100px;
+  }
+  .content-text {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 50%;
+    padding-bottom: 20px;
+  }
+  .content img {
+    order: -1;
+    max-width: 70%;
+    margin: 0 auto;
+  }
+}
+
+/* RESPONSIVO MOBILE */
+@media (max-width: 690px) {
+  .header {
+    padding-top: 20px;
+  }
+  .header nav {
+    display: none;
+  }
+  .hamburguer {
+    display: block;    
+  }
+  .content-text {
+    font-size: .8em;
+    padding: 0;
+  }
 }
