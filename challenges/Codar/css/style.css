@@ -81,7 +81,7 @@ a {
   flex-wrap: wrap;
   max-width: 960px;
   margin: 0 auto;
-  padding: 60px 0;
+  padding: 60px 0 50px 0;
   align-items: center;
   gap: 100px;
 }
@@ -115,3 +115,33 @@ a {
   padding: 12px 50px 12px 50px;
 }
 
+/* VANTAGENS */
+
+.vantagens {
+  display: flex;
+  padding: 50px 0 50px 0;
+  flex-wrap: wrap;
+  max-width: 960px;
+  margin: 0 auto;
+  align-items: center;
+  gap: 100px;
+}
+
+.vant-lista {
+  width: 400px;
+}
+
+.vant-lista li {
+  font-size: 1.5rem;
+  padding-bottom: 10px;
+}
+
+.vant-lista i {
+  padding-right: 30px;
+  color: var(--red);
+}
+
+.vant-img {
+  display: flex;
+  flex: 1 1 350px;
+}
