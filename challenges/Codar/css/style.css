@@ -50,17 +50,25 @@ a {
 }
 
 .menu li + li {
-  margin-left: 30px;
+  margin-left: 20px;
 }
 
 .menu li a {
   color: #000;
   font-size: 1.5rem;
+  padding: 10px;
+  transition: all .3s;
+}
+
+.menu li a:hover {
+  opacity: .6;
 }
 
 .menu li a.btn{
   color: #fff;
+  padding: 5px 50px 5px 50px;
 }
+
 
 .btn {
   padding: 5px 50px 5px 50px;
@@ -113,6 +121,13 @@ a {
 
 .intro-text a.btn {
   padding: 12px 50px 12px 50px;
+  display: inline-block;
+  transition: transform .2s;
+}
+
+.intro-text a.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 2px 5px rgba(170, 170, 170);;
 }
 
 /* VANTAGENS */
