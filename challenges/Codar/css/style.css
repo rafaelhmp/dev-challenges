@@ -160,3 +160,44 @@ a {
   display: flex;
   flex: 1 1 350px;
 }
+
+/* CONTATO */
+
+.contato {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 20px 0 50px 0;
+}
+
+.contato-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.contato-input {
+  border: none;
+  border-radius: 10px;
+  padding: 15px 15px 15px 30px;
+  font-size: 1.125rem;
+  background: #DCDCDC;
+  margin-right: 5px;
+}
+
+.contato-btn {
+  border: none;
+  border-radius: 10px;
+  background: var(--red);
+  text-align: center;
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #fff;
+  padding: 15px 40px;
+  cursor: pointer;
+  transition: transform .2s;
+}
+
+.contato-btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 2px 5px rgba(170, 170, 170);;
+}
