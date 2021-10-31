@@ -1,73 +1,43 @@
-<br />
+# Codar :desktop_computer:
+
 <p align="center">
-  <a href="http://www.freepik.com">
-    <img src="https://i.ibb.co/stqTkc6/video-call.png" alt="Logo" width="250" height="200">
-  </a>
 
-  <h3 align="center">Codar.</h3>
+<img src="https://i.imgur.com/Fzq7PJs.png" alt="Codar Logo"/>
 
-  <p align="center">
-    Site de uma empresa que desenvolve sites
-       <br />
-    <br />
-    <a href="https://github.com/Lorenalgm/codar">Desafio</a>
-    ·
-    <a href="https://www.linkedin.com/in/lorenagmontes/">Contato</a>
-  </p>
 </p>
 
-## Índice
+##  :book: Sobre
 
-* [Devchallenge](#devchallenge) 
-* [Desafio](#desafio)
-* [Techs](#techs)
-* [Como começar](#como-começar)
-* [Dicas](#dicas)
-  * [Cores](#cores)
-  * [Modelo](#modelo)
-  * [Imagens](#imagens)
-  * [Tipo de fonte](#tipo-de-fonte)
-* [Compartilhe](#compartilhe)
+  
 
-# Devchallenge
-<a href="https://devchallenge.now.sh/"> DevChallenge</a> permite que você evolua suas skills como programador!
+O challenge **Codar** é um desafio de **Front End** com dificuldade **iniciante** proposto pela **[DevChallenge](https://www.devchallenge.com.br/)**, onde o objetivo principal é a criação de uma **landing page** sobre uma empresa que desenvolve sites . Desenvolvi o site utilizando propriedades do **HTML5** e do **CSS3 (grid layout)**, além do uso de *media queries* para tornar o site **responsivo**.
 
-# Desafio
-Seu desafio é criar uma página sobre uma empresa que desenvolve sites. O modelo final está disponível na pasta "design"
+---
 
-<img src="https://i.ibb.co/2gB9Hkc/codar-mobile.png" width="380" height="380">
-<img src="https://i.ibb.co/wpnzvcs/codar-desktop.jpg" width="580" height="380">
+##  :rocket: Tecnologias utilizadas
 
-# Techs: 
-HTML<br>
-CSS
+- **HTML5** :heavy_check_mark:
 
-# Como começar:
-1 - Use esse template ou clone esse repositório com o código inicial<br>
-2 - Leia as instruções no readme.md<br>
-3 - Comece a codar! Sinta-se livre para utilizar o fluxo de trabalho que ache mais confortável<br>
-4 - Compartilhe seu resultado com a comunidade :)<br>
+- **CSS3** :heavy_check_mark:
 
-# Requisitos:
-- Sua página deve se parecer o mais próximo possível ao modelo que está disponível na pasta "design"<br>
-- Sua página deve ser responsiva
+---
 
-# Dicas
-## Cores:
-Vermelho: #D6000D
+##  :computer: Acesso ao projeto
 
-## Modelo:
-O modelo está disponível na pasta `./design`<br>
+  
 
-## Imagens
-As imagens utilizadas estão disponíveis na pasta `./assets`<br>
-Para os ícones, é recomendada a utilização de uma biblioteca, como o Font Awesome
+<p align="center">
 
-## Tipo de fonte:
-- Roboto
+  <a href="https://rafaelhmp.github.io/dev-challenges/challenges/Codar/index.html"><img src="https://i.imgur.com/TkjyCaW.png" alt="Codar Preview"/></a>
 
-# Compartilhe!
-Inicie seu projeto utilizando esse template no seu github como um repositório público<br>
-Faça um print, gif ou vídeo e compartilhe o resultado no seu Linkedin<br>
+</p>
 
-Criado por  <a href="https://github.com/Lorenalgm">Lorena</a> :)
+  
+
+Você pode acessar ao projeto clicando [aqui!](https://rafaelhmp.github.io/dev-challenges/challenges/Codar/index.html)
+
+  
+
+---
+
+  
