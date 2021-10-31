@@ -69,17 +69,11 @@ a {
   padding: 5px 50px 5px 50px;
 }
 
-
 .btn {
   padding: 5px 50px 5px 50px;
   background: var(--red);
   color: #fff;
   border-radius: 7px;
-}
-
-.estrutura {
-  margin: 0 auto;
-  max-width: 1080px;
 }
 
 /* INTRODUCAO */
@@ -142,13 +136,10 @@ a {
   gap: 100px;
 }
 
-.vant-lista {
-  width: 400px;
-}
-
 .vant-lista li {
   font-size: 1.5rem;
   padding-bottom: 10px;
+  flex: 1 1 300px;
 }
 
 .vant-lista i {
@@ -297,4 +288,87 @@ a {
 
 .redes-lista a:hover {
   color: #fff;
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 1300px) {
+  .header {
+    padding: 30px 20px 0 20px;
+  }
+  .introducao {
+    padding: 50px 20px 0 20px;
+  }
+  .vantagens {
+    padding: 50px 20px 0 20px;
+  }
+  .contato {
+    padding: 50px 20px 0 20px;
+  }
+}
+
+@media (max-width: 847px) {
+  .intro-img {
+    max-width: 75%;
+    margin: 0 auto;
+  }
+  .intro-text {
+    text-align: center;
+  }
+  .vant-img {
+    max-width: 75%;
+    margin: 0 auto;
+    order: -1;
+  }
+  .vant {
+    margin: 0 auto;
+  }
+  .contato {
+    text-align: center;
+  }
+  .footer {
+    padding: 40px 100px 100px 100px;
+  }
+}
+
+@media (max-width: 685px) {
+  .header nav {
+    margin: 0 auto;
+  }
+  .logo {
+    padding-bottom: 20px;
+    margin: 0 auto;
+  }
+  .footer {
+    padding: 40px 50px 50px 50px;
+  }
+}
+
+@media (max-width: 570px) {
+  .menu li {
+    margin: 0 auto;
+    padding-bottom: 25px;
+  }
+  .menu li:last-child {
+    margin: 0 auto;
+  }
+  .contato-input {
+    margin-bottom: 10px;
+  }
+  .contato-btn {
+    padding: 15px 50px;
+  }
+  .footer {
+    padding-top: 25px;
+    display: block;
+  }
+  .div-footer:nth-child(1) {
+    text-align: center;
+  }
+  .footer h2 {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    font-size: 4rem;
+  }
+  
 }
