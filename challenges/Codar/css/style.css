@@ -247,3 +247,54 @@ a {
   font-size: 1rem;
   font-weight: bold;
 }
+
+/* FOOTER */
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  background: #000;
+  color: #fff;
+  padding: 40px 200px 100px 200px;
+  justify-content: space-between;
+}
+
+.div-footer {
+  flex-basis: 190px;
+  margin: 0 10px 30px;
+}
+
+.div-footer h2 {
+  font-size: 2.5rem;
+  font-style: italic;
+  margin-bottom: 20px;
+}
+
+.div-footer h4 {
+  font-size: 1.7rem;
+  margin-bottom: 20px;
+}
+
+.contato-lista li + li {
+  margin-top: 20px;
+}
+
+.contato-lista li:last-child {
+  text-decoration: underline;
+}
+
+.redes-lista {
+  display: flex;
+  gap: 25px;
+  font-size: 2.5rem;
+  padding-left: 5px;
+}
+
+.redes-lista a {
+  color: var(--red);
+  transition: all .3s;
+}
+
+.redes-lista a:hover {
+  color: #fff;
+}
