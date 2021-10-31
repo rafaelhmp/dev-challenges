@@ -10,7 +10,7 @@
 
   
 
-O challenge **Codar** é um desafio de **Front End** com dificuldade **iniciante** proposto pela **[DevChallenge](https://www.devchallenge.com.br/)**, onde o objetivo principal é a criação de uma **landing page** sobre uma empresa que desenvolve sites . Desenvolvi o site utilizando propriedades do **HTML5** e do **CSS3 (grid layout)**, além do uso de *media queries* para tornar o site **responsivo**.
+O challenge **Codar** é um desafio de **Front End** com dificuldade **iniciante** proposto pela **[DevChallenge](https://www.devchallenge.com.br/)**, onde o objetivo principal é a criação de uma **landing page** sobre uma empresa que desenvolve sites . Desenvolvi o site utilizando propriedades do **HTML5** e do **CSS3 (flexbox)**, além do uso de *media queries* para tornar o site **responsivo**.
 
 ---
 
