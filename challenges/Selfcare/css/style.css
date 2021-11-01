@@ -1,9 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+:root {
+  --verde: #5CA720;
+  --preto: #161616;
+  --cinza: #F9F9F9;
+  --cinzaDiv: #A5A1A1;
+}
+
 body, h1, p, ul, li, img {
   margin: 0;
   padding: 0;
 }
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 ul, li {
   list-style: none;
@@ -14,4 +23,41 @@ img {
 }
 a {
   text-decoration: none;
+}
+
+/* HEADER */
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 30px 100px; */
+  max-width: 1400px;
+  padding: 30px 0 30px 0;
+}
+
+.menu ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.menu li img {
+  width: 25px;
+}
+
+.menu li + li {
+  margin-left: 40px;
+}
+
+/* BANNER */
+
+.banner {
+  background: url(../img/banner.png) center center;
+  padding: 80px;
+}
+
+.banner img {
+  margin: 0 auto;
 }
