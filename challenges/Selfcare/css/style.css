@@ -1,0 +1,17 @@
+body, h1, p, ul, li, img {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+ul, li {
+  list-style: none;
+}
+img {
+  display: block;
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+}
