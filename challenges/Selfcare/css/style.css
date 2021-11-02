@@ -84,7 +84,8 @@ a {
 
 .divisoria {
   border: 0;
-  border-top: 1px solid rgba(165, 161, 161, 0.3);
+  margin: 0;
+  border-top: 1px solid rgba(125, 125, 125, 0.3);
 }
 
 .promo span {
@@ -146,4 +147,63 @@ a {
 .produto-preco span {
   font-size: 1.75rem;
   color: var(--verde);
+}
+
+/* FOOTER */
+
+.footer-up {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 30px calc((100% - 1300px) / 2);
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--cinza);
+}
+
+.paginas, .newsletter p {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+
+.paginas li + li {
+  margin-top: 10px;
+  transition: .3s ease;
+}
+
+.paginas li:hover {
+  opacity: .5;
+}
+
+.newsletter form {
+  padding-top: 10px;
+  display: flex;
+}
+
+.newsletter-input {
+  padding: 15px 100px 15px 10px;
+  border: 1px solid rgba(125, 125, 125, 0.3);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  font-size: 1.125rem;
+}
+
+.newsletter-input::placeholder {
+  color: var(--cinzaDiv);
+}
+
+.btn {
+  font-size: 1.125rem;
+  color: var(--cinza);
+  background: var(--verde);
+  padding: 15px 40px;
+  border: 1px solid rgba(125, 125, 125, 0.3);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+  transition: .2s ease-out;
+}
+
+.btn:hover {
+  opacity: .8;
 }
