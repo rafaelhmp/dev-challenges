@@ -166,13 +166,17 @@ a {
   font-weight: bold;
 }
 
-.paginas li + li {
-  margin-top: 10px;
-  transition: .3s ease;
+.paginas li a{
+  color: var(--preto);
+  transition: .3s ease-in-out;
 }
 
-.paginas li:hover {
-  opacity: .5;
+.paginas li + li {
+  margin-top: 10px;
+}
+
+.paginas li a:hover {
+  color: var(--verde);
 }
 
 .newsletter form {
@@ -194,7 +198,7 @@ a {
 
 .btn {
   font-size: 1.125rem;
-  color: var(--cinza);
+  color: #fff;
   background: var(--verde);
   padding: 15px 40px;
   border: 1px solid rgba(125, 125, 125, 0.3);
@@ -206,4 +210,38 @@ a {
 
 .btn:hover {
   opacity: .8;
+}
+
+.footer-down {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  padding: 30px calc((100% - 1300px) / 2);
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--cinza);
+}
+
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.socials img {
+  width: 40px;
+  padding-right: 20px;
+  transition: .2s ease;
+}
+
+.socials img:hover {
+  opacity: .6;
+}
+
+.payment {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.payment img {
+  padding-right: 20px;
 }
