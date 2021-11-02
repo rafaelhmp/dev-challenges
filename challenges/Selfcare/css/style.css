@@ -115,6 +115,11 @@ a {
   padding-bottom: 65px;
 }
 
+.produto img:hover {
+  transform: scale(1.05);
+  z-index: 2;
+}
+
 .produto:nth-of-type(3n + 1), .produto:nth-of-type(3n + 2){
   padding-right: 45px;
 }
@@ -124,4 +129,21 @@ a {
   height: 300px;
   object-fit: cover;
   border-radius: 10px;
+  box-shadow: 0 0 20px 2px rgba(0, 0, 0, .1);
+  transition: .2s;
+}
+
+.produto-nome {
+  font-size: 1.3rem;
+  color: var(--preto);
+}
+
+.produto-preco {
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.produto-preco span {
+  font-size: 1.75rem;
+  color: var(--verde);
 }
