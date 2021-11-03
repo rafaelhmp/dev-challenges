@@ -108,6 +108,7 @@ a {
   margin: 0 auto;
   justify-content: space-between;
   padding-top: 40px;
+  gap: 50px;
 }
 
 
@@ -119,10 +120,6 @@ a {
 .produto img:hover {
   transform: scale(1.05);
   z-index: 2;
-}
-
-.produto:nth-of-type(3n + 1), .produto:nth-of-type(3n + 2){
-  padding-right: 45px;
 }
 
 .produto img {
@@ -244,4 +241,36 @@ a {
 
 .payment img {
   padding-right: 20px;
+}
+
+/* RESPONSIVO */
+
+@media (max-width: 1380px) {
+  .header {
+    padding: 10px 30px 20px 30px;
+  }
+  .promo {
+    padding: 30px 30px 20px 30px;
+  }
+  .products, .footer-up, .footer-down {
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  
+}
+
+@media (max-width: 1067px) {
+  .footer-up {
+    display: block;
+  }
+  .paginas {
+    margin-bottom: 100px;
+  }
+}
+
+@media (max-width: 727px) {
+  .products {
+    margin: 0 auto;
+    justify-content: center;
+  }
 }
