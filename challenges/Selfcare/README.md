@@ -40,4 +40,4 @@ Você pode acessar ao projeto clicando [aqui!](https://rafaelhmp.github.io/dev-c
 
 ---
 
-  
+**made by :rocket: [Rafael Pacheco.](https://github.com/rafaelhmp)**
