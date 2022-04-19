@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600;700&display=swap');
+
+:root {
+  --black: #242424;
+  --yellow: #FCA60F;
+  --brown: #C95E20
+}
+
+body, h1, ul, li, p {
+  margin: 0;
+  padding: 0;
+}
+ul, li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  font-family: 'Nanito', sans-serif;
+  font-weight: 600;
+}
+
+.nav {
+  box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nav-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 30px 0;
+}
+
+.nav-pages {
+  display: flex;
+}
+
+.nav-pages li+li {
+  padding-left: 60px;
+}
+
+.nav-pages li a {
+  color: var(--black);
+  transition: .2s;
+}
+
+.nav-pages li a:hover {
+  color: var(--brown);
+}
+
+@media (max-width: 1200px) {
+  .nav {
+    padding: 0 50px 0 50px;
+  }
+}
+
+@media (max-width: 700px) {
+  .nav {
+    justify-content: center;
+  }
+  .nav-content {
+    display: block;
+  }
+  .nav-pages {
+    justify-content: center;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+}
