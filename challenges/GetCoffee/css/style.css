@@ -102,7 +102,7 @@ body {
   max-width: 1200px;
   margin: 0 auto;
   justify-content: space-between;
-  padding: 120px 0;
+  padding: 120px 0 100px 0;
 }
 
 .content {
@@ -159,6 +159,9 @@ body {
   body {
     background: url("/img/forma-mobile.svg") no-repeat center center;
   }
+  .content {
+    width: 100%;
+  }
   .content-img {
     display: none;
   }
@@ -179,3 +182,35 @@ body {
   }
 }
 
+/* Footer */
+
+.footer {
+  padding-bottom: 70px;
+}
+
+.footer p{
+ text-align: center;
+ font-weight: bold;
+ margin-bottom: 20px;
+}
+
+.scroll {
+  display: flex;
+  justify-content: center;
+  animation: animate .7s linear infinite alternate;
+}
+
+@keyframes animate{
+  from {
+    transform: translateY(-4px);
+  }
+  to {
+    transform: translateY(4px);
+  }
+}
+
+@media (max-width: 700px) {
+  .footer {
+    display: none;
+  }
+}
