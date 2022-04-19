@@ -24,14 +24,16 @@ img {
 }
 
 body {
-  font-family: 'Nanito', sans-serif;
+  font-family: 'Nunito', sans-serif;
   font-weight: 600;
+  background: url("/img/forma.svg") no-repeat center center;
 }
 
 /* Menu */
 
 .nav {
   box-shadow: 0px 1px 8px rgba(0, 0, 0, 0.2);
+  background: white;
 }
 
 .nav-content {
@@ -53,6 +55,7 @@ body {
 }
 
 .nav-pages li a {
+  font-size: 1.125em;
   color: var(--black);
   transition: .2s;
 }
@@ -90,6 +93,53 @@ body {
 
 /* Main */
 
-.container {
-  background: url("/img/forma.svg") no-repeat center center;
+.main {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 120px 0;
+}
+
+.content {
+  width: 500px;
+}
+
+.content-text h1 {
+  font-size: 2em;
+  line-height: 1.5em;
+  padding-bottom: 100px;
+}
+
+.btn {
+  display: inline-block;
+  background: var(--yellow);
+  color: white;
+  font-weight: bold;
+  font-size: 1.25em;
+  padding: 15px 60px;
+  border-radius: 4px;
+  transition: transform .3s;
+  margin-bottom: 30px;
+}
+
+.btn:hover {
+  transform: scale(1.1);
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+}
+
+.socials li {
+  transition: transform .5s;
+}
+
+.socials li:hover {
+  transform: scale(1.1);
+}
+
+.socials li + li {
+  padding-left: 20px;
 }
