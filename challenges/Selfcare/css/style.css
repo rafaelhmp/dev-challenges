@@ -260,11 +260,30 @@ a {
 }
 
 @media (max-width: 1067px) {
-  .footer-up {
-    display: block;
-  }
   .paginas {
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+  }
+  .footer-down {
+    padding: 0 calc((100% - 1440px) / 2);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .socials, .payment {
+    padding: 25px 10px;
+  }
+  .newsletter form{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .newsletter-input {
+    flex: 1;
+    padding: 15px;
+  }
+  .btn {
+    flex: 1;
+    border-radius: 5px;
   }
 }
 
