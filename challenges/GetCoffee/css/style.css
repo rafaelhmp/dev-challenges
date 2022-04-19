@@ -68,7 +68,7 @@ body {
 
 @media (max-width: 1200px) {
   .nav {
-    padding: 0 50px 0 50px;
+    padding: 0 50px;
   }
 }
 
@@ -77,12 +77,16 @@ body {
 @media (max-width: 700px) {
   .nav {
     justify-content: center;
+    padding: 0 25px;
   }
   .nav-content {
     display: block;
   }
   .nav-pages {
     justify-content: center;
+  }
+  .nav-pages li+li {
+    padding-left: 30px;
   }
   .logo {
     display: flex;
@@ -142,4 +146,35 @@ body {
 
 .socials li + li {
   padding-left: 20px;
+}
+
+@media (max-width: 1200px) {
+  .main{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    background: url("/img/forma-mobile.svg") no-repeat center center;
+  }
+  .content-img {
+    display: none;
+  }
+  .main {
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .content-text {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 150px;
+  }
+  .socials {
+    justify-content: center;
+  }
 }
