@@ -82,11 +82,20 @@ body {
   margin-top: 20px;
   margin-bottom: 100px;
   cursor: pointer;
+  transition: .3s;
+}
+
+.btn:hover {
+  opacity: .8;
 }
 
 footer, footer a {
   color: var(--grey);
   text-align: center;
+}
+
+footer a:hover {
+  opacity: .8;
 }
 
 .interview {
