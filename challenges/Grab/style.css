@@ -22,3 +22,48 @@ img {
   max-width: 100%;
   display: block;
 }
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--blue);
+}
+
+.logo {
+  max-width: 30%;
+  margin: 0 auto;
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+.input-container {
+  position: relative;
+}
+
+.input-form {
+  padding: 15px 15px 15px 50px;
+  background: transparent;
+  outline: none;
+  color: var(--grey);
+  font-size: 1.125rem;
+  border-radius: 60px;
+  border: 3px solid var(--grey);
+  margin-bottom: 10px;
+}
+
+.input-container label {
+  color: var(--grey);
+  top: 16px;
+  left: 15px;
+  position: absolute;
+}
