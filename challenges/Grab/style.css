@@ -89,3 +89,14 @@ footer, footer a {
   text-align: center;
 }
 
+.interview {
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  background: var(--grey);
+}
+
+.interview img {
+  margin-left: -250px;
+  max-width: 1050px;
+}
