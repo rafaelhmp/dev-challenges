@@ -109,3 +109,25 @@ footer a:hover {
   margin-left: -250px;
   max-width: 1050px;
 }
+
+@media (max-width: 768px) {
+  .main {
+    grid-template-columns: 1fr;
+  }
+  .logo {
+    padding-top: 100px;
+    padding-bottom: 0px;
+  }
+  .content {
+    justify-content: space-evenly;
+  }
+  .interview {
+    display: none;
+  }
+}
+
+@media (max-width: 300px) {
+  .content {
+    min-height: 105vh;
+  }
+}
