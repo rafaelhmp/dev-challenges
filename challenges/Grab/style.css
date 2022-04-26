@@ -30,6 +30,7 @@ body {
 .main {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  min-height: 100vh;
 }
 
 .content {
@@ -71,7 +72,7 @@ body {
 }
 
 .btn {
-  font-size: 1.125rem;
+  font-size: 1rem;
   font-family: 'Roboto';
   font-weight: bold;
   width: 100%;
@@ -80,4 +81,11 @@ body {
   border-color: transparent;
   margin-top: 20px;
   margin-bottom: 100px;
+  cursor: pointer;
 }
+
+footer, footer a {
+  color: var(--grey);
+  text-align: center;
+}
+
