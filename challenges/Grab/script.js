@@ -14,9 +14,11 @@ function checkEmail(email) {
   this.email.classList.remove('active');
   if(!emailRegex.test(email.value)) {
     this.email.classList.add('active');
+    this.email.nextElementSibling.classList.add('active');
     errorMsg.classList.add('active');
   } else {
     this.email.classList.remove('active');
+    this.email.nextElementSibling.classList.remove('active');
     errorMsg.classList.remove('active');
   }
 }

@@ -72,6 +72,14 @@ body {
   display: block;
 }
 
+.input-form.active {
+  border-color: var(--red);
+}
+
+.input-container label.active {
+  color: var(--red);
+}
+
 .input-container + .input-container{
   margin-top: 15px;
 }
