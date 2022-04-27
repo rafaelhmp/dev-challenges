@@ -11,7 +11,6 @@ function checkBtn() {
 }
 
 function checkEmail(email) {
-  this.email.classList.remove('active');
   if(!emailRegex.test(email.value)) {
     this.email.classList.add('active');
     this.email.nextElementSibling.classList.add('active');
@@ -22,6 +21,5 @@ function checkEmail(email) {
     errorMsg.classList.remove('active');
   }
 }
-
 
 checkBtn();
