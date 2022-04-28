@@ -4,6 +4,9 @@
   --blue: #6C63FF;
   --black: #000000;
 }
+
+/* Reset */
+
 body, h1, ul, li, p {
   margin: 0;
   padding: 0;
@@ -23,9 +26,10 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+/* Nav */
+
 .nav {
   display: flex;
-  /* background: url("img/drawing.svg") no-repeat right; */
   align-items: center;
   flex-direction: column;
 }
@@ -54,10 +58,36 @@ body {
 
 .nav ul {
   text-align: center;
+  padding-bottom: 100px;
 }
 
 .nav ul li a{
   color: var(--black);
   font-size: 2rem;
   font-weight: 300;
+}
+
+/* Hero */
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0 20px;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.hero h1 strong {
+  color: var(--blue);
+}
+
+.hero-img {
+  width: 75%;
 }
