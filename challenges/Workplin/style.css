@@ -24,6 +24,9 @@ img {
 
 body {
   font-family: 'Poppins', sans-serif;
+  background: url("img/drawing.svg") no-repeat;
+  background-position: top -100px right -100px;
+  background-size: 400px;
 }
 
 /* Nav */
@@ -34,14 +37,7 @@ body {
   flex-direction: column;
 }
 
-.nav img {
-  position: relative;
-  right: -70px;
-  top: -50px;
-}
-
 .nav p {
-  position: absolute;
   font-size: 3rem;
   padding: 40px 0;
   font-weight: bold;
@@ -67,6 +63,10 @@ body {
   font-weight: 300;
 }
 
+.nav ul li + li{
+  padding-top: 15px;
+}
+
 /* Hero */
 
 .hero {
@@ -74,8 +74,6 @@ body {
   flex-wrap: wrap;
   flex-direction: column;
   align-items: center;
-  justify-content: space-evenly;
-  padding: 0 20px;
 }
 
 .hero h1 {
