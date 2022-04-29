@@ -112,6 +112,10 @@ body {
   align-items: center;
 }
 
+.contato-text {
+  display: none;
+}
+
 .contato-form input {
   box-sizing: border-box;
   padding: 30px 20px;
@@ -141,6 +145,7 @@ body {
   padding: 30px 80px;
   border-radius: 20px;
   transition: .3s;
+  cursor: pointer;
 }
 
 /* Footer */
@@ -214,7 +219,43 @@ body {
     flex-direction: row-reverse;
     flex-wrap: nowrap;
   }
-  .hero .title {
+  .hero .title, .contato .title {
     font-size: 4em;
   }
+
+  /* Contato */
+   .contato {
+     max-width: 1240px;
+     margin: 0 auto;
+     padding-bottom: 200px;
+     flex-wrap: wrap;
+   }
+   .contato-content {
+     display: flex;
+     gap: 60px;
+   }
+   .contato-form {
+     justify-content: space-between;
+   }
+   .contato-form input {
+     padding: 20px 100px 20px 20px;
+     font-size: 1.75em;
+   }
+   .contato-text {
+     display: flex;
+     border: 2px solid var(--black);
+     border-radius: 20px;
+     box-shadow: 0 4px 4px rgb(0, 0, 0, 0.4);
+   }
+   .contato-text p {
+     font-size: 1.75em;
+     text-align: center;
+     font-weight: bold;
+     padding: 42px;
+   }
+   .btn {
+     margin-top: 100px;
+     font-size: 2em;
+     padding: 15px 200px;
+   }
 }
