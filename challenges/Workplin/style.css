@@ -258,4 +258,10 @@ body {
      font-size: 2em;
      padding: 15px 200px;
    }
+
+   /* Footer */
+   .footer {
+     flex-direction: row-reverse;
+     justify-content: space-around;
+   }
 }
