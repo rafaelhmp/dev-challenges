@@ -53,17 +53,17 @@ body {
   color: var(--blue);
 }
 
-.nav ul {
+.menu {
   text-align: center;
 }
 
-.nav ul li a{
+.menu li a{
   color: var(--black);
-  font-size: 2rem;
+  font-size: 1.5em;
   font-weight: 300;
 }
 
-.nav ul li + li{
+.menu li + li{
   padding-top: 15px;
 }
 
@@ -179,4 +179,30 @@ body {
 
 .contato-input:hover, .btn:hover {
   transform: scale(1.1);
+}
+
+@media (min-width: 1240px) {
+  body {
+    background-position: top -50px right -50px;
+    background-size: 400px;
+  }
+  
+  /* Nav */
+  .nav {
+    flex-direction: row;
+    padding: 60px 0;
+    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 1240px;
+  }
+  .nav p {
+    padding: 0;
+  }
+  .menu {
+    display: flex;
+  }
+  .menu li + li {
+    padding-top: 0px;
+    padding-left: 40px;
+  }
 }
