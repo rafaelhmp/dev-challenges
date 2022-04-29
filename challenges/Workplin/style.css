@@ -140,3 +140,27 @@ body {
   padding: 30px 80px;
   border-radius: 20px;
 }
+
+/* Footer */
+
+.footer {
+  background: var(--blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 20px 60px 20px;
+}
+
+.footer-nav {
+  text-align: center;
+}
+
+.footer-nav li a{
+  color: var(--black);
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.footer-nav li + li {
+  padding-top: 10px;
+}
