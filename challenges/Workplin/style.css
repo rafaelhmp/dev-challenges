@@ -121,6 +121,7 @@ body {
   font-size: 1.2em;
   font-weight: bold;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.4);
+  transition: .3s;
 }
 
 .contato-form input::placeholder {
@@ -139,6 +140,7 @@ body {
   font-weight: bold;
   padding: 30px 80px;
   border-radius: 20px;
+  transition: .3s;
 }
 
 /* Footer */
@@ -173,4 +175,8 @@ body {
 
 .menu li a:hover, .footer-nav li a:hover {
   text-decoration: underline;
+}
+
+.contato-input:hover, .btn:hover {
+  transform: scale(1.1);
 }
