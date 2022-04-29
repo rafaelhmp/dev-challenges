@@ -151,6 +151,10 @@ body {
   padding: 50px 20px 60px 20px;
 }
 
+.footer .title a{
+  color: var(--black);
+}
+
 .footer-nav {
   text-align: center;
 }
@@ -163,4 +167,10 @@ body {
 
 .footer-nav li + li {
   padding-top: 10px;
+}
+
+/* Hover */
+
+.menu li a:hover, .footer-nav li a:hover {
+  text-decoration: underline;
 }
