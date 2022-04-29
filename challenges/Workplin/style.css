@@ -186,7 +186,7 @@ body {
     background-position: top -50px right -50px;
     background-size: 400px;
   }
-  
+
   /* Nav */
   .nav {
     flex-direction: row;
@@ -204,5 +204,17 @@ body {
   .menu li + li {
     padding-top: 0px;
     padding-left: 40px;
+  }
+
+  /* Hero */
+  .hero {
+    padding: 100px 0;
+    max-width: 1240px;
+    margin: 0 auto;
+    flex-direction: row-reverse;
+    flex-wrap: nowrap;
+  }
+  .hero .title {
+    font-size: 4em;
   }
 }
