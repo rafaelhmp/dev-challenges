@@ -53,6 +53,13 @@
     font-weight: bold;
     padding-bottom: 5px;
   }
+  a {
+    text-decoration: none;
+    color: $branco;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 .edit {

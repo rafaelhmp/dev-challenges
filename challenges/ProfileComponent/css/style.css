@@ -132,6 +132,15 @@ img {
   padding-bottom: 5px;
 }
 
+.profile-name a {
+  text-decoration: none;
+  color: #B7B7B7;
+}
+
+.profile-name a:hover {
+  text-decoration: underline;
+}
+
 .edit {
   padding: 10px;
   color: #B7B7B7;
