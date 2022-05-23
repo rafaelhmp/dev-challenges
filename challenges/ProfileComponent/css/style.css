@@ -56,13 +56,10 @@ table {
 body {
   background: #0C0B0B;
   font-family: "Rubik", sans-serif;
+  color: #B7B7B7;
 }
 
 img {
   max-width: 100%;
   display: block;
-}
-
-p, h1, span {
-  color: #B7B7B7;
 }
