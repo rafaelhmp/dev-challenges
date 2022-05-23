@@ -30,3 +30,9 @@ $amarelo: #725200;
     transform: scale(1.05);
   }
 }
+
+@mixin mobile {
+  @media screen and (max-width: 680px) {
+    @content;
+  }
+}
