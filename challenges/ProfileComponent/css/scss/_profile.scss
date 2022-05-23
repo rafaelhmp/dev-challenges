@@ -60,3 +60,15 @@
   align-items: center;
   justify-content: space-between;
 }
+
+.projetos {
+  @include number-content($verde);
+}
+
+.estrelas {
+  @include number-content($azul);
+}
+
+.seguidores {
+  @include number-content($amarelo);
+}
