@@ -1,0 +1,13 @@
+body {
+  background: $preto;
+  font-family: $font-1;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+p, h1, span {
+  color: $branco;
+}
