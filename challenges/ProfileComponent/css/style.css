@@ -63,3 +63,54 @@ img {
   max-width: 100%;
   display: block;
 }
+
+.main {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  background: #0F0E0E;
+  width: 600px;
+  padding: 50px;
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 50px;
+}
+
+.profile-info {
+  display: flex;
+  align-items: center;
+}
+
+.profile-pic {
+  max-width: 100px;
+  padding-right: 10px;
+}
+
+.profile-pic img {
+  border-radius: 50%;
+}
+
+.profile-name h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding-bottom: 5px;
+}
+
+.edit {
+  padding: 10px;
+  border-radius: 5px;
+  background: #1b1b1b;
+  font-size: 1.125em;
+}
+
+.edit i {
+  padding-right: 10px;
+}
