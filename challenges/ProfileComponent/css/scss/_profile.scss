@@ -2,13 +2,17 @@
   display: flex;
   min-height: 100vh;
   align-items: center;
-  justify-content: center;
+  justify-content: center; 
 }
 
 .container {
   background: $cinza;
   width: 600px;
   padding: 50px;
+  @include mobile {
+    padding-bottom: 0px;
+    position: relative;
+  }
 }
 
 .profile {
@@ -16,11 +20,19 @@
   align-items: center;
   justify-content: space-between;
   padding-bottom: 50px;
+  @include mobile {
+    flex-direction: column;
+    gap: 40px;
+  }
 }
 
 .profile-info {
   display: flex;
   align-items: center;
+  @include mobile {
+    flex-direction: column;
+    gap: 40px;
+  }
 }
 
 .profile-pic {
@@ -28,6 +40,10 @@
   padding-right: 10px;
   img {
     border-radius: 50%;
+  }
+  @include mobile {
+    position: absolute;
+    top: -60px;
   }
 }
 
@@ -59,16 +75,30 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  @include mobile {
+    flex-direction: column;
+  }
 }
 
 .projetos {
   @include number-content($verde);
+  @include mobile {
+    width: 75%;
+    margin-bottom: 20px;
+  }
 }
 
 .estrelas {
   @include number-content($azul);
+  @include mobile {
+    width: 75%;
+    margin-bottom: 20px;
+  }
 }
 
 .seguidores {
   @include number-content($amarelo);
+  @include mobile {
+    width: 75%;
+  }
 }
