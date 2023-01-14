@@ -18,6 +18,15 @@ p {
   margin: 0px;
 }
 
+p,
+a {
+  color: #70798c;
+}
+
+a {
+  text-decoration: none;
+}
+
 ul,
 li {
   list-style: none;
@@ -28,4 +37,25 @@ li {
 img {
   display: block;
   max-width: 100%;
+}
+
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.title {
+  font-size: 3.5rem;
+  color: #252323;
+}
+
+.intro p {
+  padding-top: 10px;
+  color: #70798c;
+}
+
+.intro p a:hover {
+  text-decoration: underline;
 }
