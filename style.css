@@ -81,6 +81,11 @@ img {
   box-shadow: 0 20px 20px rgba(0, 0, 0, 0.4);
   border-radius: 10px;
   margin-bottom: 50px;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-20px);
 }
 
 .card h2 {
@@ -88,5 +93,15 @@ img {
 }
 
 .card p {
+  padding: 10px;
+}
+
+.icons {
+  font-size: 20px;
   padding-bottom: 20px;
+}
+
+.icons a {
+  color: #a99985;
+  padding-right: 10px;
 }
