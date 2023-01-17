@@ -70,6 +70,7 @@ img {
   max-width: 1200px;
   margin: 0 auto;
   padding-top: 100px;
+  justify-content: center;
 }
 
 .card {
@@ -82,6 +83,10 @@ img {
   border-radius: 10px;
   margin-bottom: 50px;
   transition: 0.3s ease;
+}
+
+.card-img img {
+  border-radius: 10px 10px 0 0;
 }
 
 .card:hover {
@@ -104,4 +109,15 @@ img {
 .icons a {
   color: #a99985;
   padding-right: 10px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+  }
+  .card {
+    width: 50vw;
+  }
 }
